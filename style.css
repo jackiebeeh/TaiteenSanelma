@@ -8,3 +8,51 @@
 	 url('./Fonts/reey/Reey-Regular.svg') format('svg');
 }
 
+@font-face{ 
+	font-family: 'Daniel';
+	src: url('./Fonts/daniel/Daniel-Black.otf');
+	src: url('./Fonts/daniel/Daniel-Black.otf') format('eot'),
+	     url('./Fonts/daniel/Daniel-Black.woff') format('woff'),
+	     url('./Fonts/daniel/Daniel-Black.otf') format('truetype'),
+	     url('./Fonts/daniel/Daniel-Black.svg') format('svg');
+}        
+
+body {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-size: cover;
+    background-color: antiquewhite;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Daniel",Arial;
+}
+a:hover {
+    color: #a0918d;
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: "Reey",Arial;
+    background-color: #8f7b757c;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+h4 {
+    margin-top: 200px;
+    color: white;
+    font-family: "Daniel",Arial;
+}
+
+dt {
+    text-align: center;
+    font-family: "Daniel",Arial;
+    margin-bottom: 30px;
+    font-style: bold;
+}    

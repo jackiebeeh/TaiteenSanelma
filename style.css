@@ -1,0 +1,10 @@
+/* Stylesheet for Taiteen Sanelma*/
+
+@font-face {
+    font-family: 'Reey';
+    src: url('./Fonts/reey/Reey-Regular.otf');
+    url('./Fonts/reey/Reey-Regular.woff') format('woff'),
+	 url('./Fonts/reey/Reey-Regular.otf') format('truetype'),
+	 url('./Fonts/reey/Reey-Regular.svg') format('svg');
+}
+

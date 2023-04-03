@@ -15,15 +15,18 @@
 	     url('./Fonts/daniel/Daniel-Black.woff') format('woff'),
 	     url('./Fonts/daniel/Daniel-Black.otf') format('truetype'),
 	     url('./Fonts/daniel/Daniel-Black.svg') format('svg');
-}        
+}       
+}
+}
 
 body {
+    background-image: url(./Photos/Backgroundimage.png);
+    image-resolution: 100%;
     margin-bottom: 100px;
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     background-size: cover;
-    background-color: antiquewhite;
 }
 a {
     color: white;
@@ -46,33 +49,33 @@ h1 {
 
 h2 {
     margin-top: 0px;
-    font-size: 15px;
-    text-align: right;
-    background-color: #8f7b757c;
-    color: white;
+    font-size: 12px;
+    text-align: center;
+    color: #996633;
+    opacity: 0.8;
     font-family: "Daniel",Arial;
 }
 
 h3 {
-    margin-top: 20px;
+    margin-top: 0px;
     color: white;
     font-family: "Daniel",Arial;
 }
 
 h4 {
-    margin-top: 20px;
+    margin-top: 0px;
     color: white;
     font-family: "Daniel",Arial;
 }
 
 h5 {
-    margin-top: 20px;
+    margin-top: 0px;
     color: white;
     font-family: "Daniel",Arial;
 }
 
 h6 {
-    margin-top: 20px;
+    margin-top: 0px;
     color: white;
     font-family: "Daniel",Arial;
 }
@@ -80,6 +83,20 @@ h6 {
 dt {
     text-align: center;
     font-family: "Daniel",Arial;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     font-style: bold;
-}    
+}  
+
+p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 130px;
+    margin-right: 130px;
+    color: #996633;
+    font-family: "Daniel",Arial;
+}
+
+img.Header {
+    margin-bottom: 0px
+}

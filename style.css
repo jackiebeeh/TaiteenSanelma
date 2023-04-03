@@ -41,10 +41,37 @@ h1 {
     font-family: "Reey",Arial;
     background-color: #8f7b757c;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+    font-size: 15px;
+    text-align: right;
+    background-color: #8f7b757c;
+    color: white;
+    font-family: "Daniel",Arial;
+}
+
+h3 {
+    margin-top: 20px;
+    color: white;
+    font-family: "Daniel",Arial;
 }
 
 h4 {
+    margin-top: 20px;
+    color: white;
+    font-family: "Daniel",Arial;
+}
+
+h5 {
+    margin-top: 20px;
+    color: white;
+    font-family: "Daniel",Arial;
+}
+
+h6 {
     margin-top: 20px;
     color: white;
     font-family: "Daniel",Arial;

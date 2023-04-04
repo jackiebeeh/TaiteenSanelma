@@ -8,31 +8,27 @@
     <title>Contact Info</title>
 </head>
 <body>
-    <script>
-        // Your JavaScript goes here!
-        console.log("Hello, World!")
-      </script>
-    <img src="./Photos/TaiteenSanelma Header.png" width="100%" height="auto" >
+    <img class="Header" src="./Photos/TaiteenSanelma Header.png" width="100%" height="auto" >
     <h2>How to contact me and when</h2>
 
-    <ul>
-        <dt class="link">
-            <a href="./index.html">Home</a>
-
-            <a href="./AboutMe.html">About Me</a>
-            <dt class="dropdown"></dt>
-            <a href="javascript:void(0)" class="dropbtn">
+    <div class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./AboutMe.html">About Me</a>
+        <div class="dropdown">
+            <button class="shopbtn">
                 <a href="./Shop.html">Shop</a>
-                 <div class="dropdown-content">
-                    <a href="./ShopArt.html">Art</a>
-                    <a href="./ShopJewelry.html">Jewelry</a>
-                    <a href="./Rocks.html">Rocks</a>
-                </div>
-            </dt>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="./ShopArt.html">Art</a>
+                <a href="./ShopJewelry.html">Jewelry</a>
+                <a href="./Rocks.html">Rocks</a>
+            </div>
+        </div>
                 
-            <a class="active" href="./Contactinfo.html">Contact info</a>
-        </dt>    
+        <li><a class="active" href="./Contactinfo.html">Contact info</a></li>    
     </ul>
+    </div>
 
     <h1>Contact Info</h1>
 

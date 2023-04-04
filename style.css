@@ -48,6 +48,10 @@ body {
     text-decoration: none;
 }
 
+.navbar:hover {
+    opacity: 1;
+}
+
 /*
 
 ul  {

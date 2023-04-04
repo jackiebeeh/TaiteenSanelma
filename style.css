@@ -2,21 +2,19 @@
 
 @font-face {
     font-family: 'Reey';
-    src: url('./Fonts/reey/Reey-Regular.otf');
-    url('./Fonts/reey/Reey-Regular.woff') format('woff'),
-	 url('./Fonts/reey/Reey-Regular.otf') format('truetype'),
-	 url('./Fonts/reey/Reey-Regular.svg') format('svg');
+    src: url('./Fonts/reey/Reey-Regular.otf') format('eot'),
+        url('./Fonts/reey/Reey-Regular.woff') format('woff'),
+	    url('./Fonts/reey/Reey-Regular.otf') format('truetype'),
+	    url('./Fonts/reey/Reey-Regular.svg') format('svg');
 }
 
 @font-face{ 
 	font-family: 'Daniel';
-	src: url('./Fonts/daniel/Daniel-Black.otf');
 	src: url('./Fonts/daniel/Daniel-Black.otf') format('eot'),
-	     url('./Fonts/daniel/Daniel-Black.woff') format('woff'),
-	     url('./Fonts/daniel/Daniel-Black.otf') format('truetype'),
-	     url('./Fonts/daniel/Daniel-Black.svg') format('svg');
+	    url('./Fonts/daniel/Daniel-Black.woff') format('woff'),
+	    url('./Fonts/daniel/Daniel-Black.otf') format('truetype'),
+	    url('./Fonts/daniel/Daniel-Black.svg') format('svg');
 }       
-
 
 body {
     background-color: white;
@@ -44,6 +42,7 @@ body {
     text-decoration: none;
 }
 
+/*
 ul  {
     list-style-type: none;
     float: left;
@@ -58,7 +57,6 @@ ul  {
     width: 100%;
     }
 
-    /*
     
     
     background-color: #CC9966;
@@ -74,8 +72,8 @@ ul  {
 ul:hover {
     opacity: 1;
 }
-*/
 
+*/
 li  {
     list-style-type: none;
     color: #996633;
@@ -83,11 +81,9 @@ li  {
     text-align: center;
 }  
 
-
 .dropdown {
     float: left;
     overflow: hidden;
-    position: relative;
 }
 
 .dropdown .shopbtn {
@@ -109,7 +105,7 @@ li  {
     display: none;
     position: absolute;
     background-color: #FFFF;
-    min-width: 100%;
+    width: auto;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -121,15 +117,18 @@ li  {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: center;
 }
 
-/*
-.dropdown-content a:hover {background-color: #CC9966;}
-*/
+.dropdown-content a:hover {
+    background-color: #CC9966;
+    color: #FFFF;
+    opacity: 100%;
+}
 
-.dropdown:hover .dropdown-content {display:block;}
-
+.dropdown:hover .dropdown-content {
+    display:block;
+}
 
 a {
     color: #996633;

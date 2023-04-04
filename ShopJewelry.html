@@ -9,22 +9,25 @@
 </head>
 <body>
     <img class="Header" src="./Photos/TaiteenSanelma Header.png" width="100%" height="auto">
+    
     <h2>My online shop</h2>
-    <ul>
-        <dt class="link">
-            <a href="./index.html">Home</a>
-
-            <a href="./AboutMe.html">About Me</a>
-
-            <a class="active" href="./Shop.html">Shop</a>
-                <div class="dropdown-content">
-                    <a href="./ShopArt.html">Art</a>
-                    <a href="./ShopJewelry.html">Jewelry</a>
-                    <a href="./Rocks.html">Rocks</a>
-                </div>
-            <a href="./Contactinfo.html">Contact info</a> 
-        </dt>    
-    </ul>
+    
+    <div class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./AboutMe.html">About Me</a>
+        <div class="dropdown">
+            <button class="shopbtn">
+                <a href="./Shop.html">Shop</a>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="./ShopArt.html">Art</a>
+                <a class="active" href="./ShopJewelry.html">Jewelry</a>
+                <a href="./Rocks.html">Rocks</a>
+            </div>
+        </div>    
+        <li><a href="./Contactinfo.html">Contact info</a></li>
+    </div>
 
     <h1>Jewelry</h1>
 

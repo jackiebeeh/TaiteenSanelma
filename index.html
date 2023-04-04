@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <link rel="stylesheet" href="./style.css" type="text/css" charset="utf-8">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,26 +9,27 @@
 </head>
 <body>
     <img class="Header" src="./Photos/TaiteenSanelma Header.png" width="100%" height="auto" >
+    
     <h2>Nature inspired words and art</h2>
-    <ul>
-        <dt class="link">
-            <a class="active" href="./index.html">Home</a>
-            <a href="./AboutMe.html">About Me</a>
-            <a href="./Shop.html">Shop</a>
-                <div class="dropdown-content">
-                    <a href="./ShopArt.html">Art</a>
-                    <a href="./ShopJewelry.html">Jewelry</a>
-                    <a href="./Rocks.html">Rocks</a>
-                </div>
-            <a href="./Contactinfo.html">Contact info</a>
-        </dt>
-    </ul>
     
+    <div class="navbar">
+        <a class="active" href="./index.html">Home</a>
+        <a href="./AboutMe.html">About Me</a>
+        <div class="dropdown">
+            <button class="shopbtn">
+                <a href="./Shop.html">Shop</a>
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="./ShopArt.html">Art</a>
+                <a href="./ShopJewelry.html">Jewelry</a>
+                <a href="./Rocks.html">Rocks</a>
+            </div>
+        </div>    
+        <li><a href="./Contactinfo.html">Contact info</a></li>
+    </div>
     
-
     <p>Welcome to my webpage and feel free to roam around and check out what I have to offer.</p>
-
-    
 
 </body>
 </html>

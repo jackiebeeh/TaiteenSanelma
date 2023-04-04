@@ -28,10 +28,15 @@ body {
 }
 
 .navbar {
-    overflow: hidden;
     background-color: #CC9966;
     opacity: 50%;
     padding: 12px 0;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    min-height: 45px;
 }
 
 .navbar a {
@@ -44,6 +49,7 @@ body {
 }
 
 /*
+
 ul  {
     list-style-type: none;
     float: left;
@@ -51,10 +57,7 @@ ul  {
     text-align: center;
     margin: 0;
     padding: 0;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    width: 100%;
+    
     background-color: #CC9966;
     opacity: 50%;
     overflow: auto;
@@ -66,6 +69,7 @@ ul:hover {
 }
 
 */
+
 li  {
     list-style-type: none;
     color: #996633;
@@ -75,7 +79,7 @@ li  {
 
 .dropdown {
     float: left;
-    overflow: hidden;
+    position: relative;
 }
 
 .dropdown .shopbtn {
@@ -129,12 +133,10 @@ a {
     text-align: center;
 }
 
-
 a.active , a:hover {
     color: #996633;
     background-color: #FFFF;
 }
-
 
 h1 {
     color: #996633;
@@ -181,8 +183,6 @@ h6 {
     color: #996633;
     font-family: "Daniel",Arial;
 }
-
-
 
 p {
     font-size: 15px;

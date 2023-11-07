@@ -14,7 +14,7 @@
 	    url('./Fonts/daniel/Daniel-Black.woff') format('woff'),
 	    url('./Fonts/daniel/Daniel-Black.otf') format('truetype'),
 	    url('./Fonts/daniel/Daniel-Black.svg') format('svg');
-}       
+}   
 
 body {
     background-color: white;
@@ -90,7 +90,7 @@ li  {
     font-size: inherit;
     border: none;
     outline: none;
-    color: inherit;
+    color: #996633;
     padding: inherit;
     background-color: inherit;
     font-family: inherit;
@@ -99,6 +99,7 @@ li  {
 
 .navbar a:hover, .dropdown:hover .shopbtn {
     background-color: #FFFF;
+    color: #CC9966;
 }
 
 .dropdown-content {
@@ -114,6 +115,7 @@ li  {
 .dropdown-content a {
     float: none;
     color: #996633;
+    background-color: #FFFF;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -122,8 +124,7 @@ li  {
 
 .dropdown-content a:hover {
     background-color: #CC9966;
-    color: #FFFF;
-    opacity: 100%;
+    color: #996633;
 }
 
 .dropdown:hover .dropdown-content {
@@ -139,7 +140,7 @@ a {
 
 a.active , a:hover {
     color: #996633;
-    background-color: #FFFF;
+    background-color: #ffcc99;
 }
 
 h1 {

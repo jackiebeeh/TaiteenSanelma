@@ -1,2 +1,5 @@
 # TaiteenSanelma
-Handcrafted jewelry and more
+
+Website design project for my handcrafts and arts projects. Still under development.
+
+

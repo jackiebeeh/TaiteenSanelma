@@ -199,6 +199,12 @@ a {
     margin-bottom: 3rem;
     font-size: 2rem;
 }
+.content .profileImage {
+    width: 30%;
+    min-width: 200px;
+    border-radius: 50%;
+    margin: 2rem 0;
+}
 
 /* Footer */
 .footer {

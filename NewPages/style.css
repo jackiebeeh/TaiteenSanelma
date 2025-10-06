@@ -1,0 +1,231 @@
+/* TaiteenSanelma - StyleSheet */
+/* Universal */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: var(--mainFontColor);
+font-family: "Cormorant Upright";
+}
+:root {
+--mainColor: black;
+--secondaryColor: white;
+--highlightColor: green;
+--mainFontColor: white;
+--secondaryFontColor: black;
+}
+body {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+width: 100%;
+min-width: 600px;
+background-color: var(--mainColor);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.link {
+    transition: text-shadow, font-size 0.5s;
+    text-wrap: nowrap;
+}
+.link:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 5px white;
+    font-size: 1.3rem;
+
+    transition: text-shadow, font-size 0.5s;
+}
+/* warnings */
+.warning {
+    color: orange;
+    font-size: 2rem;
+    margin: 2rem 0 2rem 0;
+}
+.constructionSite {
+    outline: 0.2rem orange solid;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 2rem 0 2rem 0;
+}
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title img {
+    max-height: 40vh;
+    min-height: 150px;
+    margin-top: 10vh;
+}
+.subtitle {
+    text-align: center;
+    font-size: 1.3rem;
+}
+/* NavBar */
+nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+    transition: text-shadow, font-size, text-decoration, box-shadow 1s ease-in-out;
+    border-top: solid white 1px;
+
+}
+nav:hover {
+    box-shadow: 0px 0px 10px whitesmoke;
+    transition: text-shadow, font-size, text-decoration, box-shadow 1s ease-in-out;
+
+}
+.navbtn {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    transition: text-shadow, font-size, text-decoration 1s ease-in-out;
+}
+.navbtn:hover {
+    font-size: 1.7rem;
+    text-shadow: 0px 0px 40px white ;
+    text-decoration: underline;
+    transition: text-shadow, font-size, text-decoration 1s ease-in-out;
+
+}
+/* Main */
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(--mainColor,--secondaryColor);
+    min-height: 100vh;
+}
+/* Footer */
+footer {
+    width: 100%;
+    min-width: 560px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--mainFontColor);
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top: 2px solid white;
+    font-size: 1.3rem;
+    padding: 2rem;
+}
+footer .space {
+    width: 33.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .logo img {
+    max-height: 20vh;
+    min-height: 80px;
+    padding-bottom: 2rem;
+}
+footer .pageLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+footer .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+/* Index */
+.intro {
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.welcomeTxt {
+    font-size: 1.3rem;
+}
+.intro > img {
+    max-width: 30%;
+    margin: 3rem;
+    border-radius: 50%;
+}
+.events{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: solid rgba(255, 255, 255,0.5) 2px;
+    padding-top: 20vh;
+    
+}
+.events .subtitle {
+    margin-bottom: 5rem;
+    font-size: 5rem;
+    letter-spacing: 40px;
+}
+.event {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 0 4rem 0;
+}
+.event img {
+    max-width: 800px;
+    border-radius: 5%;
+    border: solid white 3px;
+    width: 70%;
+}
+.event .info{
+    max-width: 350px;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    
+}
+.event .info .title {
+    display: flex;
+    flex-wrap: wrap;
+}
+.event .info .details{
+    font-size: small;
+    margin-top: 2rem;
+}
+/* Gallery */
+
+/* Portfolio */
+
+/* About */
+
+/* Contact */

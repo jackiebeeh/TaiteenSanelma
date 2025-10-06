@@ -270,3 +270,115 @@ a {
     font-size: 14px;
     gap: 5px;
 }
+
+/* Instagram feed - TESTING */
+.instagram-media {
+    background:#FFF; 
+    border:0; 
+    border-radius:3px; 
+    box-shadow:0 0 1px 0 rgba(0,0,0,0.5),
+        0 1px 10px 0 rgba(0,0,0,0.15);
+    margin: 1px; 
+    max-width:540px; 
+    min-width:326px; 
+    padding:0; 
+    width:99.375%; 
+    width:undefinedpx;
+    height:undefinedpx;
+    max-height:100%; 
+    width:undefinedpx;
+}
+.IgDivOne {
+    padding:16px;
+}
+#mainLink {
+    background:#FFFFFF; 
+    line-height:0; 
+    padding:0 0; 
+    text-align:center; 
+    text-decoration:none; 
+    width:100%;
+}
+.DivOneChildOne {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+}
+.DivOneChildOneChildOne {
+    background-color: 
+    #F4F4F4; 
+    border-radius: 50%; 
+    flex-grow: 0; 
+    height: 40px; 
+    margin-right: 14px; 
+    width: 40px;
+}
+.DivOneChildOneChildTwo {
+    display: flex; 
+    flex-direction: column; 
+    flex-grow: 1; 
+    justify-content: center;
+}
+.DivOneChildOneChildTwoChildOne {
+    background-color: #F4F4F4; 
+    border-radius: 4px; 
+    flex-grow: 0; 
+    height: 14px; 
+    margin-bottom: 6px; 
+    width: 100px;
+}
+.DivOneChildOneChildTwoChildTwo {
+    background-color: #F4F4F4; 
+    border-radius: 4px; 
+    flex-grow: 0; 
+    height: 14px; 
+    width: 60px;
+}
+.DivOneChildTwo {
+    padding: 19% 0;
+}
+.DivOneChildThree {
+    display:block; 
+    height:50px; 
+    margin:0 auto 12px; 
+    width:50px;
+}
+.DivOneChildFour {
+    padding-top: 8px;
+}
+.DivOneChildFourChildOne {
+    color:#3897f0; 
+    font-family:Arial,sans-serif; 
+    font-size:14px; 
+    font-style:normal; 
+    font-weight:550; 
+    line-height:18px;
+}
+.DivOneChildFive {
+    padding: 12.5% 0;
+}
+.DivOneChildSix {
+    display: flex; 
+    flex-direction: row; 
+    margin-bottom: 14px; 
+    align-items: center;
+}
+
+
+
+
+
+.boxes3 {
+    height:175px;
+    width:153px;
+} 
+#n img {
+    max-height:none!important;
+    max-width:none!important;
+    background:none!important
+} 
+#inst i {
+    max-height:none!important;
+    max-width:none!important;
+    background:none!important
+}

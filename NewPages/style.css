@@ -39,6 +39,11 @@ a {
 
     transition: text-shadow, font-size 0.5s;
 }
+.title {
+    font-size:4rem;
+    letter-spacing: 30px;
+    margin: 2rem;
+}
 /* warnings */
 .warning {
     color: orange;
@@ -123,6 +128,7 @@ main {
     justify-content: center;
     background-image: linear-gradient(--mainColor,--secondaryColor);
     min-height: 100vh;
+    margin: 4rem 0 4rem 0;
 }
 /* Footer */
 footer {
@@ -229,3 +235,54 @@ footer .contact {
 /* About */
 
 /* Contact */
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    height: 100%;
+    margin-top: 4rem;
+}
+.selfImage img {
+    max-width: 40vw;
+    border: solid white 10px;
+}
+.contacts .info {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 3rem;
+    row-gap: 2rem;
+    text-align: right;
+
+}
+.comment {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    width: 100%;
+    min-height: 400px;
+}
+label {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+#comment {
+    height: 100px;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#sendBtn {
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}

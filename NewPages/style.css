@@ -146,6 +146,7 @@ main {
 }
 /* Footer */
 footer {
+
     width: 100%;
     min-width: 560px;
     min-height: 200px;
@@ -159,24 +160,29 @@ footer {
     padding-right: 1rem;
     border-top: 2px solid white;
     font-size: 1.3rem;
-    padding: 2rem;
+    padding: 0 6rem ;
 }
 footer .space {
+    border-right: 2px solid white;
+    padding-right: 20px;
     width: 33.3vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 20vh;
 }
 footer .logo img {
-    max-height: 20vh;
+    max-height: 140px;
     min-height: 80px;
     padding-bottom: 2rem;
 }
 footer .pageLinks {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: start;
     justify-content: center;
+    border: none;
+    margin-left:20px;
 }
 footer .contact {
     display: flex;

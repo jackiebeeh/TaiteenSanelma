@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TaiteenSanelma - Contact</title>
     <link rel="stylesheet" href="../style.css"/>
-    <script src="../script.js" defer></script>
+    <script src="../../sript.js" defer></script>
 </head>
 <body>
     <header>
-        <div class="title">
+        <div class="logo">
             <img src="../../images/TaiteenSanelmaLogoWhite.png">
         </div>
         <div class="subtitle">
@@ -68,6 +68,7 @@
                 </div>
             </div>
         </div>
+        <!-- 
         <div class="comment">
             <label for="comment">
                 Write me a message:
@@ -76,8 +77,8 @@
             <button  id="sendBtn" type="submit">
                 Send
             </button>
-        </div>
-        
+        </div> 
+        --> 
     </main>
     <footer>
         <div class="space contact">
@@ -97,7 +98,7 @@
         </div>
         <div class="space logo">
             <a href="../index.html">
-                <img src="../../images/TaiteenSanelmaRoundLogoWhite.png" alt="Taiteen Sanelma - a hand written logo">
+                <img src="../../images/TaiteenSanelmaLogoWhite.png" alt="Taiteen Sanelma - a hand written logo">
             </a> 
         </div>
         <div class="space pageLinks">
@@ -121,3 +122,18 @@
     </footer>
 </body>
 </html>
+<!-- 
+<script>
+    document.getElementById("sendBtn").addEventListener("click", function() {
+        const comment = document.getElementById("comment").value;
+        if(comment) {
+            console.log("User comment: " + comment);
+            
+            alert("Thank you for your message: " + comment);
+            document.getElementById("comment").value = "";
+        } else {
+            alert("Please enter a message before sending.");
+        }
+    });
+</script> 
+-->

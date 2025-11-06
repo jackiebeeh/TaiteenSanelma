@@ -286,6 +286,9 @@ footer .contact {
     width: 100%;
     min-height: 400px;
 }
+input{
+    color: var(--secondaryFontColor);
+}
 label {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;

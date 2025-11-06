@@ -44,6 +44,15 @@ a {
     letter-spacing: 30px;
     margin: 2rem;
 }
+.subtitle {
+    font-size: 2rem;
+}
+.h1{
+    font-size: 1.5rem;
+}
+.h2{
+    font-size: 1rem;
+}
 /* warnings */
 .warning {
     color: orange;
@@ -69,19 +78,19 @@ header {
     justify-content: center;
     align-items: center;
 }
-.title {
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.title img {
+.logo img {
     max-height: 40vh;
     min-height: 150px;
     margin-top: 10vh;
 }
-.subtitle {
+header .subtitle {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 /* NavBar */
 nav {
@@ -224,8 +233,7 @@ footer .contact {
     display: flex;
     flex-wrap: wrap;
 }
-.event .info .details{
-    font-size: small;
+.event .info .h2{
     margin-top: 2rem;
 }
 /* Gallery */
